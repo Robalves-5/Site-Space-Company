@@ -1,0 +1,203 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+ 
+ html,body {
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.menu-principal {
+    background-image: linear-gradient(to right,rgb(20, 6, 63),rgb(20, 20, 168));
+    height: 90px;
+}
+
+main {}
+
+.logo img {
+
+    
+}
+
+
+.header-2 {
+    background-color: #ffff;
+    width: 100%;
+    border-bottom:3px solid #efefef ;
+    
+}
+
+.menu,ul,li {
+    display: inline-block;
+    color: rgb(91, 91, 223);
+    margin-left: 60px;
+    margin-top: auto;
+}
+
+.menu,ul,li, a {
+    display: inline-block;
+    color: rgb(81, 81, 85);
+    text-decoration:none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0%;
+    height: 35px;
+}
+
+.menu,ul,li:hover {
+    border-bottom: 0px solid rgb(3, 3, 6);
+
+
+}
+
+.menu ul,li,a:hover {
+    color: rgb(3, 3, 6);
+}
+
+
+.menu {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    float: none;
+    font-size: 10%;
+    margin-left: 0px;
+    padding-right:60% ;
+    position: relative;
+    left: 0;;
+    margin-top: 0%;
+}
+
+.busca{
+    width: 20%;
+    float:right;
+    margin-top: -2%;
+    margin-right: -30px;
+    position: relative;
+}
+
+.busca input {
+    background-image: url(imagens/lupa-removebg-preview.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    padding: 2px;
+    width: 230px;
+    background-position: 100%;
+    border: 1px solid #d6d6d6;
+}
+
+button.slick-prev{
+    font-size:0px;
+    border: none;
+    width: 500px;
+    height: 500px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('imagens/seta-esq.png');
+    margin-top: -5%;
+    left: 0%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width:500px;
+    height:500px ;
+    z-index:9 ;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('imagens/seta-dir.png');
+    margin-top: -30%;
+    right: 0%;
+}
+
+.col-100,.texto-destaque h1 {
+    text-align: center;
+}
+
+.h1 {
+    padding: 25px;
+    position: absolute; 
+    top: 20px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.col-3{
+    padding: 15px;
+    padding-right:25px ;
+    width: 30%;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 50%;
+}
+
+
+.container p{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+.container img{
+    margin-top: 20%;
+   margin-left: 50px;
+   border: 5px solid #170a58;
+   
+   
+}
+
+.container p{
+    margin-left: 50px;
+    background-color: #efefef;
+
+}
+
+
+.footer{
+    padding: 50px;
+    background-color: #170a58;
+    margin-top: 50px;
+}
+
+.footer h3{
+    font-size: 230%;
+    position: relative;
+    left: 0px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 0px;
+    text-align: left;
+    bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
